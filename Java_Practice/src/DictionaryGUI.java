@@ -57,8 +57,8 @@ public class DictionaryGUI extends JFrame {
 
     private String queryDatabase(String word) {
         String url = "jdbc:mysql://rm-bp13z1291yal195860o.mysql.rds.aliyuncs.com:3306/book?useSSL=false&serverTimezone=GMT";
-        String user = "root";
-        String pass = "Giti#73920";
+        String user = "mysql_username";
+        String pass = "your_password";
         String meaning = null;
 
         try {
