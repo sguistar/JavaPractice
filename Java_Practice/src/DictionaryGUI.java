@@ -19,7 +19,7 @@ public class DictionaryGUI extends JFrame {
     }
 
     private void initComponents() {
-        // 上方：输入与按钮
+        // 上方：输入与按钮-
         JPanel top = new JPanel(new BorderLayout(5,5));
         txtWord = new JTextField();
         btnQuery = new JButton("查询");
